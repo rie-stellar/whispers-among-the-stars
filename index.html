@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whispers Among Stars</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Galaxy Background -->
+  <div class="galaxy-background">
+    <video autoplay muted loop>
+      <source src="assets/galaxy.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <!-- Title -->
+    <h1 class="title">Waves of Stardust</h1>
+
+    <!-- Center Image -->
+    <div class="image-container">
+      <img src="images/image.jpeg" alt="Galaxy center image with glowing effect">
+    </div>
+
+    <!-- Message Input Box -->
+    <form id="messageForm">
+      <div class="message-box">
+        <input id="messageInput" type="text" placeholder="Write your message here..." maxlength="100" aria-label="Message Input">
+        <button id="sendButton" class="send-button" type="submit" aria-label="Send Message"></button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Floating Messages -->
+  <div id="floatingMessages"></div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
